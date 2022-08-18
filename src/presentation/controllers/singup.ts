@@ -3,7 +3,7 @@ import { badRequest } from '../helpers/http-helper'
 import { MissingParamError } from '../errors/missing-param-error'
 import { Controller } from '../protocols/controller'
 import { EmailValidator } from '../protocols/emailvalidator'
-import { InvalidParamError } from '../errors/missing-param-error copy'
+import { InvalidParamError } from '../errors/invalid-param-error'
 import { ServerError } from '../errors/server-error'
 
 export class SingUpController implements Controller {
