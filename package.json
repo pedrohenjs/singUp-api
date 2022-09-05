@@ -28,7 +28,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "start": "sucrase-node src/main/server.ts",
+    "dev": "sucrase-node src/main/server.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests",
     "test:unit": "yarn test --watch -c jest.config-unit.js",
